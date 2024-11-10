@@ -1,44 +1,44 @@
 *
 !.gitignore
-!/.etckeeper
-!/bluetooth/
+!.etckeeper
+!bluetooth/*
 !crypttab
 !crypttab.initramfs
-!/firewalld
+!firewalld/*
 !fstab
 !hostname
 !hosts
-!/httpd
-!/initcpio/acpi_override/suspendpatch.aml
+!httpd/*
+!initcpio/acpi_override/suspendpatch.aml
 
 #THIS SHOULD BE REPLACED AT SOME POINT
-!/initcpio/post/uki-sbsign
+!initcpio/post/uki-sbsign
 
-!/iwd
-!/kernel/cmdline
+!iwd/*
+!kernel/cmdline
 !locale.conf
 !locale.gen
 !localtime
 !lostfiles.conf
-!/makepkg.conf.d
+!makepkg.conf.d/*
 !mkinitcpio.conf
-!/mkinitcpio.d
-!/modprobe.d
-!/modules-load.d
+!mkinitcpio.d/*
+!modprobe.d/*
+!modules-load.d/*
 !nsswitch.conf
 !pacman.conf
 !pacman.d/hooks/98-systemd-sign.hook
 !papersize
-!/samba/smb.conf
-!/snapper/
+!samba/smb.conf
+!snapper/*
 #!ssh TODO REMOVE/MOVE KEYS FIRST
-!/sudoers.d/
-!/systemd/
+!sudoers.d/*
+!systemd/*
 !vconsole.conf
 
 #!vimrc HUH?
 
-!/wlogout/
+!wlogout/*
 
 
 # begin section managed by etckeeper (do not edit this section by hand)

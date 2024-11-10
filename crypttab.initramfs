@@ -1,0 +1,2 @@
+cryptFs		UUID=7b92aec9-2c34-4508-a213-46726b9f391a	-	discard,luks,tpm2-device=/dev/tpmrm0
+cryptSwap	UUID=c3dbda43-6c4c-4b1d-8849-faffc73d32cf	-	discard,luks,nofail,x-systemd.mount-timeout=5,tpm2-device=/dev/tpmrm0

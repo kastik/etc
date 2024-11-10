@@ -1,0 +1,1 @@
+cryptWindows	/dev/nvme0n1p3					/etc/keys/bitlocker	bitlk,nofail,x-systemd.device-timeout=5,discard

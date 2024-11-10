@@ -1,0 +1,17 @@
+UUID=6629962c-9f8b-4072-b5a1-ad9165470e11	/         		btrfs	rw,relatime,lazytime,ssd,space_cache=v2,subvol=/@		0 0
+UUID=6629962c-9f8b-4072-b5a1-ad9165470e11	/boot     		btrfs	rw,relatime,lazytime,ssd,space_cache=v2,subvol=/@boot		0 0
+UUID=D897-EF55					/boot/efi 		vfat	rw,relatime,lazytime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+UUID=6629962c-9f8b-4072-b5a1-ad9165470e11	/home/kastik.homedir    btrfs	rw,relatime,lazytime,ssd,space_cache=v2,subvol=/@kastik		0 0
+UUID=6629962c-9f8b-4072-b5a1-ad9165470e11	/var/log  		btrfs	rw,relatime,lazytime,ssd,space_cache=v2,subvol=/@var_log	0 0
+UUID=6629962c-9f8b-4072-b5a1-ad9165470e11	/var/lib/iwd         	btrfs	rw,relatime,lazytime,ssd,space_cache=v2,subvol=/@iwd		0 0
+UUID=6629962c-9f8b-4072-b5a1-ad9165470e11       /var/lib/bluetooth      btrfs   rw,relatime,lazytime,ssd,space_cache=v2,subvol=/@bluez          0 0
+
+UUID=6629962c-9f8b-4072-b5a1-ad9165470e11	/var/cache         	btrfs	rw,relatime,lazytime,ssd,space_cache=v2,subvol=/@var_cache	0 0
+UUID=6629962c-9f8b-4072-b5a1-ad9165470e11	/var/tmp         	btrfs	rw,relatime,lazytime,ssd,space_cache=v2,subvol=/@var_tmp	0 0
+
+/dev/mapper/cryptSwap				none      		swap	defaults,nofail,nobootwait,x-systemd.device-timeout=5		0 0
+/dev/mapper/cryptWindows /mnt/Windows ntfs3 nofail,noauto,x-gvfs-show,x-gvfs-name=Windows,windows_names,rw,uid=1000,gid=1000,dmask=022,fmask=133,x-systemd.device-timeout=5 0 0
+#/dev/mapper/cryptUSB /run/user/TODO btrfs defaults,nofail,nobootwait,x-systemd.device-timeout=5,user
+
+
+

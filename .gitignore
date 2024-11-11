@@ -22,6 +22,7 @@
 !lostfiles.conf
 !makepkg.conf.d/*
 !mkinitcpio.conf
+!!makepkg.conf.d/
 !mkinitcpio.d/*
 !modprobe.d/*
 !modules-load.d/*

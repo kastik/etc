@@ -1,0 +1,59 @@
+root:x:0:0::/root:/bin/zsh
+bin:x:1:1::/:/usr/bin/nologin
+daemon:x:2:2::/:/usr/bin/nologin
+mail:x:8:12::/var/spool/mail:/usr/bin/nologin
+ftp:x:14:11::/srv/ftp:/usr/bin/nologin
+http:x:33:33::/srv/http:/usr/bin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/usr/bin/nologin
+dbus:x:81:81:System Message Bus:/:/usr/bin/nologin
+systemd-coredump:x:981:981:systemd Core Dumper:/:/usr/bin/nologin
+systemd-network:x:980:980:systemd Network Management:/:/usr/bin/nologin
+systemd-oom:x:979:979:systemd Userspace OOM Killer:/:/usr/bin/nologin
+systemd-journal-remote:x:978:978:systemd Journal Remote:/:/usr/bin/nologin
+systemd-resolve:x:977:977:systemd Resolver:/:/usr/bin/nologin
+systemd-timesync:x:976:976:systemd Time Synchronization:/:/usr/bin/nologin
+uuidd:x:68:68::/:/usr/bin/nologin
+avahi:x:974:974:Avahi mDNS/DNS-SD daemon:/:/usr/bin/nologin
+colord:x:973:973:Color management daemon:/var/lib/colord:/usr/bin/nologin
+git:x:972:972:git daemon user:/:/usr/bin/git-shell
+lightdm:x:971:971:Light Display Manager:/var/lib/lightdm:/usr/bin/nologin
+polkitd:x:102:102:PolicyKit daemon:/:/usr/bin/nologin
+tss:x:970:970:tss user for tpm2:/:/usr/bin/nologin
+usbmux:x:140:140:usbmux user:/:/usr/bin/nologin
+brltty:x:967:967:Braille Device Daemon:/var/lib/brltty:/usr/bin/nologin
+flatpak:x:966:966:Flatpak system helper:/:/usr/bin/nologin
+gdm:x:120:120:Gnome Display Manager:/var/lib/gdm:/usr/bin/nologin
+geoclue:x:965:965:Geoinformation service:/var/lib/geoclue:/usr/bin/nologin
+rtkit:x:133:133:RealtimeKit:/proc:/usr/bin/nologin
+systemd-journal-upload:x:963:963:systemd Journal Upload:/:/usr/bin/nologin
+nm-openvpn:x:960:960:NetworkManager OpenVPN:/:/usr/bin/nologin
+openvpn:x:959:959:OpenVPN:/:/usr/bin/nologin
+mysql:x:958:958:MariaDB:/var/lib/mysql:/usr/bin/nologin
+dhcp:x:957:957:DHCP daemon:/:/usr/bin/nologin
+dnsmasq:x:956:956:dnsmasq daemon:/:/usr/bin/nologin
+radiusd:x:955:955:radius daemon:/:/usr/bin/nologin
+stunnel:x:16:16::/var/run/stunnel:/usr/bin/nologin
+tinyproxy:x:186:186:HTTP proxy daemon:/:/usr/bin/nologin
+fwupd:x:954:954:Firmware update daemon:/var/lib/fwupd:/usr/bin/nologin
+_talkd:x:952:952:User for legacy talkd server:/:/usr/bin/nologin
+passim:x:951:951:Local Caching Server:/usr/share/empty:/usr/bin/nologin
+saned:x:949:949:SANE daemon user:/:/usr/bin/nologin
+photoprism:x:950:950:Photoprism:/:/usr/bin/nologin
+qemu:x:947:947:QEMU user:/:/usr/bin/nologin
+cups:x:209:209:cups helper user:/:/usr/bin/nologin
+nvidia-persistenced:x:143:143:NVIDIA Persistence Daemon:/:/usr/bin/nologin
+postgres:x:948:948:PostgreSQL user:/var/lib/postgres:/usr/bin/bash
+greeter:x:945:945:greetd greeter user:/:/bin/bash
+alpm:x:944:944:Arch Linux Package Management:/:/usr/bin/nologin
+nixbld01:x:941:942:Nix builder 01:/:/usr/bin/nologin
+nixbld02:x:940:942:Nix builder 02:/:/usr/bin/nologin
+nixbld03:x:939:942:Nix builder 03:/:/usr/bin/nologin
+nixbld04:x:938:942:Nix builder 04:/:/usr/bin/nologin
+nixbld05:x:937:942:Nix builder 05:/:/usr/bin/nologin
+nixbld06:x:936:942:Nix builder 06:/:/usr/bin/nologin
+nixbld07:x:935:942:Nix builder 07:/:/usr/bin/nologin
+nixbld08:x:934:942:Nix builder 08:/:/usr/bin/nologin
+nixbld09:x:933:942:Nix builder 09:/:/usr/bin/nologin
+nixbld10:x:932:942:Nix builder 10:/:/usr/bin/nologin
+nixbld:x:30000:942::/home/nixbld:/usr/bin/bash
+libvirt-qemu:x:930:930:Libvirt QEMU user:/:/usr/bin/nologin

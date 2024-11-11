@@ -1,0 +1,15 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = systemd
+
+
+[Action]
+Description = Signing Systemd for Secure Boot
+When = PostTransaction
+Exec = /bin/sbsign --key /etc/keys/efi/DB.key --cert /etc/keys/efi/DB.crt /usr/lib/systemd/boot/efi/systemd-bootx64.efi
+
+Depends = sbsigntools
+

@@ -1,0 +1,8 @@
+# PAM configuration file for hyprlock
+# the 'login' configuration file (see /etc/pam.d/login)
+
+#%PAM-1.0
+auth 		sufficient 	pam_howdy.so 		debug
+auth      	sufficient 	pam_unix.so    		try_first_pass likeauth nullok debug
+auth		include		login			debug
+

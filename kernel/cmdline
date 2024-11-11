@@ -1,0 +1,1 @@
+root=/dev/mapper/cryptFs rootflags=subvol=@ resume=UUID=ddbfded9-789c-49ff-a9f1-977440a58d57 sysrq_always_enabled=1 loglevel=3 mem_sleep_default=deep audit=1 lsm=landlock,lockdown,yama,integrity,apparmor,bpf vm.swappiness=20 zswap.enabled=0

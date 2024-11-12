@@ -11,10 +11,10 @@ QGROUP=""
 
 
 # fraction or absolute size of the filesystems space the snapshots may use
-SPACE_LIMIT="0.5"
+SPACE_LIMIT=""
 
 # fraction or absolute size of the filesystems space that should be free
-FREE_LIMIT="0.2"
+FREE_LIMIT=""
 
 
 # users and groups allowed to work with config
@@ -36,8 +36,8 @@ NUMBER_CLEANUP="yes"
 
 # limit for number cleanup
 NUMBER_MIN_AGE="3600"
-NUMBER_LIMIT="50"
-NUMBER_LIMIT_IMPORTANT="10"
+NUMBER_LIMIT="2-10"
+NUMBER_LIMIT_IMPORTANT="4-10"
 
 
 # create hourly snapshots
@@ -48,12 +48,12 @@ TIMELINE_CLEANUP="yes"
 
 # limits for timeline cleanup
 TIMELINE_MIN_AGE="3600"
-TIMELINE_LIMIT_HOURLY="10"
-TIMELINE_LIMIT_DAILY="10"
+TIMELINE_LIMIT_HOURLY="1"
+TIMELINE_LIMIT_DAILY="1"
 TIMELINE_LIMIT_WEEKLY="0"
-TIMELINE_LIMIT_MONTHLY="10"
+TIMELINE_LIMIT_MONTHLY="1"
 TIMELINE_LIMIT_QUARTERLY="0"
-TIMELINE_LIMIT_YEARLY="10"
+TIMELINE_LIMIT_YEARLY="1"
 
 
 # cleanup empty pre-post-pairs

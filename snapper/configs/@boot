@@ -11,10 +11,10 @@ QGROUP=""
 
 
 # fraction or absolute size of the filesystems space the snapshots may use
-SPACE_LIMIT="0.5"
+SPACE_LIMIT=""
 
 # fraction or absolute size of the filesystems space that should be free
-FREE_LIMIT="0.2"
+FREE_LIMIT=""
 
 
 # users and groups allowed to work with config

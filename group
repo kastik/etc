@@ -93,3 +93,4 @@ libvirt:x:931:kastik
 libvirt-qemu:x:930:
 guest:x:30001:
 audit:x:929:kastik
+named:x:40:

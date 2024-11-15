@@ -92,4 +92,4 @@ nixbld:x:942:nixbld01,nixbld02,nixbld03,nixbld04,nixbld05,nixbld06,nixbld07,nixb
 libvirt:x:931:kastik
 libvirt-qemu:x:930:
 guest:x:30001:
-audit:x:929:
+audit:x:929:kastik

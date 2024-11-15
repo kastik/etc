@@ -57,3 +57,4 @@ nixbld09:x:933:942:Nix builder 09:/:/usr/bin/nologin
 nixbld10:x:932:942:Nix builder 10:/:/usr/bin/nologin
 nixbld:x:30000:942::/home/nixbld:/usr/bin/bash
 libvirt-qemu:x:930:930:Libvirt QEMU user:/:/usr/bin/nologin
+guest:x:30001:30001::/home/guest:/bin/nologin

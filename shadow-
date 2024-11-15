@@ -42,7 +42,7 @@ photoprism:!*:19793::::::
 qemu:!*:19801::::::
 cups:!*:19807::::::
 nvidia-persistenced:!*:19818::::::
-postgres:!*:19827::::::
+postgres:$y$j9T$rK0SbnWxJpFoxfuytY21//$b6ahZ4x0TBVpPK83vm5Awp04MFlVcNGXOCGAW.wnEF2:20025::::::
 greeter:!*:19846::::::
 alpm:!*:19980::::::
 nixbld01:!*:19995::::::
@@ -57,3 +57,4 @@ nixbld09:!*:19995::::::
 nixbld10:!*:19995::::::
 nixbld:!:19995:0:99999:7:::
 libvirt-qemu:!*:20004::::::
+guest:!:20019:0:99999:7:::

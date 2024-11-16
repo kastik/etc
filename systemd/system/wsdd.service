@@ -1,0 +1,24 @@
+[Unit]
+Description=Web Services Dynamic Discovery host daemon
+Documentation=man:wsdd(8)
+; Start after the network has been configured
+After=network-online.target
+Wants=network-online.target
+; It makes sense to have Samba running when wsdd starts, but is not required.
+;BindsTo=smb.service
+After=smb.service
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/conf.d/wsdd
+; The service is put into an empty runtime directory chroot,
+; i.e. the runtime directory which usually resides under /run
+ExecStart=/usr/bin/wsdd --shortlog --chroot=/run/wsdd $WSDD_PARAMS
+DynamicUser=yes
+User=wsdd
+Group=wsdd
+RuntimeDirectory=wsdd
+AmbientCapabilities=CAP_SYS_CHROOT
+
+[Install]
+WantedBy=multi-user.target

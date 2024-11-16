@@ -1,0 +1,5 @@
+[Service]
+Name=Postgresql
+Type=_postgresql._tcp
+Port=5432
+TxtText=test
